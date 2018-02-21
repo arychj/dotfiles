@@ -24,3 +24,6 @@ nnoremap <C-n> :call NumberToggle()<cr>
 
 " Force save
 cnoremap W w !sudo tee > /dev/null %
+
+" Highlight current line
+highlight CursorLine ctermbg=233 cterm=NONE
