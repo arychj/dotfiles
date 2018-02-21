@@ -1,10 +1,16 @@
+set cursorline
+set expandtab
+set noswapfile
+set number
+set ruler
+set scrolloff=1
+set shiftwidth=4
 set smartindent
 set tabstop=4
-set shiftwidth=4
-set expandtab
-set number
-set cursorline
+set termencoding=utf-8
+set wildmenu
 
+filetype on
 syntax on
 
 function! NumberToggle()
