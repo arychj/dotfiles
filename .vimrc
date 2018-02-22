@@ -27,3 +27,9 @@ cnoremap W w !sudo tee > /dev/null %
 
 " Highlight current line
 highlight CursorLine ctermbg=233 cterm=NONE
+
+" Fix home and end in Terminal.app
+:map <C-a> 0
+:map <C-e> $
+:imap <C-a> <C-o>0
+:imap <C-e> <C-o>$

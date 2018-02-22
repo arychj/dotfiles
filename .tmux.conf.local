@@ -267,6 +267,8 @@ tmux_conf_copy_to_os_clipboard=false
 #set -g status-position top
 
 ### my stuff ###
+set -gu prefix2
+unbind C-a
 
 set -g mouse on
 set -g history-limit 10000
